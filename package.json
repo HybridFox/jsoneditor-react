@@ -1,5 +1,5 @@
 {
-  "name": "jsoneditor-react",
+  "name": "jsoneditor-react_package_nodejs",
   "version": "1.0.1",
   "description": "React implementation of https://github.com/josdejong/jsoneditor",
   "main": "es",
@@ -21,7 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vankop/jsoneditor-react.git"
+    "url": "ssh://git@git.antwerpen.be/ocapi/jsoneditor-react_package_nodejs.git"
+  },
+  "publishConfig": {
+    "@acpaas:registry": "https://nexusrepo.antwerpen.be/repository/npm-private/"
   },
   "keywords": [
     "react",
